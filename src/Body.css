@@ -1,0 +1,96 @@
+.body {
+    height: 100vh;
+    flex: 0.8;
+    color: white;
+    padding: 30px;
+    overflow-y: overlay;
+    background: linear-gradient(#eba3c4 5%, #bd7396 25%, black 90%);
+}
+
+.body__container__color {
+    background: linear-gradient(rgb(20, 20, 20) 10%, rgb(0, 0, 0) 90%);
+    opacity: 0.7;
+}
+
+.body__green {
+    color: #2de22d;
+    padding-right: 20px;
+}
+
+
+/* .gradient__text {
+    color: linear-gradient( 45deg, #c8beff, #dea8f8 10%, #a8deff 30%, #bdfacd 42%, #f3fabd 58%, #fae3bd 70%, #f8acab 95%, #feaad4 100%);
+} */
+
+
+/* .gradient-text {
+    color: red;
+}
+
+@supports (background-clip: text) {
+    .gradient-text {
+        background-image: linear-gradient( 30deg, #db24db, #f0327b, #f57a28, #fff06c);
+        background-clip: text;
+        color: transparent;
+    }
+} */
+
+.body::-webkit-scrollbar {
+    display: none;
+}
+
+.body>hr {
+    border: 1px solid #030303;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.body__info>img {
+    height: 20vw;
+    margin: 0 20px;
+    box-shadow: 0 5px 90px rgba(0, 0, 0, 0.8);
+}
+
+.body__info {
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+.body__infoText {
+    flex: 1;
+}
+
+.body__icons {
+    display: flex;
+    align-items: center;
+}
+
+.body__icons>.MuiSvgicon-root {
+    margin-right: 20px;
+}
+
+.body__shuffle {
+    font-size: 70px !important;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.body__songs {
+    margin: 20px -30px;
+}
+
+.body__shuffle:hover {
+    transition: 100ms transform ease-in;
+    transform: scale(1.08);
+}
+
+.body__infoText>h2 {
+    font-size: 90px;
+    margin-bottom: 10px;
+}
+
+.body__infoText>p {
+    font-size: 14px;
+}
